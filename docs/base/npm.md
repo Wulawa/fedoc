@@ -1,0 +1,15 @@
+npm login 输入正确的用户名和密码时仍出现 Incorrect username or password
+
+通过 npm config ls 查看是否使用了非 npmjs.org 官网的 registry。
+
+
+暂时切换回 npm 官方库地址即可
+npm config set registry https://registry.npmjs.org/
+
+
+
+99a713dba5e5bce9032f32143be5dfd7ef537cb82127fd7b209f825ea54ccff6
+9c2de5dd0d63911979cbce66f0c0b38b9f77827a70d04f6c1cf91aa8986da859
+d7bd7fbd579467bdd5b75d05ec984e4751ac64c470991168f2187fee6ec5b62e
+26ac7bb5358fe6b9793d08dec25a2cc2aa628b4d87365709354044ec3a02a0f3
+2bb96edc98ad3a75b80c9ec6c4e03634e0bf95ca429d7be5984b7ee97c5a9e08
